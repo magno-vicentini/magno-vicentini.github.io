@@ -1,0 +1,11 @@
+Projeto Trybetunes
+
+Nesse projeto eu criei um aplicativo capaz de tocar musicas de diferentes artistas e bandas aonde você precisa de login de acesso e ainda pode favoritar suas musicas em que  aprendi melhor em como fazer requisições  em API's além do uso de Class Components, State e Rotas com o React.
+
+Projeto StarWars
+
+Nesse projeto nós temos uma aplication aonde se usa uma API's Static para buscar diferentes planetas do StarWars  além de poder adicionar filtros. Um projeto de muito aprendizado com useContext, Provider além de utilizar components funcionais no React.
+
+Projeto TrybeWallet
+
+Um projeto com uma aplicação onde você faz login e cria sua propria carteira com sua despesas convertendo o valor da moeda para BRL. Um projeto muito desafiador que aprendi a usar Redux no React e requisições em API.

@@ -1,0 +1,27 @@
+.toolbox-page {
+  align-items: center;
+  background-color: var(--main-green);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 700px;
+  padding: auto;
+  margin:auto;
+}
+
+.toolbox-front {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-front {
+  width: 40px;
+  margin: 0px 15px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

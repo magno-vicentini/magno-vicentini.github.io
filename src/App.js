@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './pages/Header'
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Toolbox from './pages/Toolbox';
+import PortfolioProvider from './provider/PortfolioProvider';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
+
+  Aos.init({ duration: 800 });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PortfolioProvider>
+      <Header/>
+      <Home/>
+      <Toolbox/>
+      <Projects/>
+    </PortfolioProvider>   
   );
 }
 

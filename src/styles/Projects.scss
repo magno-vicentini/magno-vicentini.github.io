@@ -1,0 +1,84 @@
+.projects-page {
+  align-items: center;
+  background-color: var(--main-black);
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 700px;
+  padding: auto;
+  margin:auto;
+}
+
+.repos-box {
+  width: 45%;
+  margin: 0 10px;
+  text-align: center;
+  margin: 15px;
+  box-shadow: 5px 10px 3px var(--main-green);
+  border-radius: 25px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo-personal-wallet {
+  background-image: url(../assets/images/personal-wallet.jpg);
+  background-size:cover;
+}
+
+.repo-movie-cards-library {
+  background-image: url(../assets/images/movie-cards.jpg);
+  background-size:cover;
+}
+
+.repo-planets-search {
+  background-image: url(../assets/images/planets-search.jpg);
+  background-size:cover;
+}
+
+.repo-mytunes {
+  background-image: url(../assets/images/mytunes.jpeg);
+  background-size:cover;
+}
+
+.repos-box p {
+  background-color: #080808d5;
+  border-radius: 15px;
+}
+
+.repos-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  justify-content: space-evenly;
+}
+
+.links-button {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.desc-container {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-button {
+  background-color: #080808d5;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 5px 10px;
+}
+
+
+
