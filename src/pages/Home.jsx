@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import '../styles/Home.scss'
-import PerfilImage from '../assets/images/magno-perfil-zoom-sem-fundopng.png'
+import PerfilImage from '../assets/images/magno-perfil-3.png'
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
         <img
           src={PerfilImage}
           alt='magno-perfil'
-          className='image-perfil'
+          className='image-perfil-1'
         />
         <div className='image-fader'>
           <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' alt='git' />

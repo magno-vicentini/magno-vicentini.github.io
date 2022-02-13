@@ -1,0 +1,56 @@
+.about-page {
+  align-items: center;
+  background-color: var(--main-green);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 700px;
+  padding: auto;
+  margin:auto;
+}
+
+.imgsHhobbies {
+  width: 5rem;
+  height: 5rem;
+  margin: 0 10px;
+}
+
+.imgsHhobbies:hover {
+  zoom: 1.3;
+}
+
+.image-perfil-2 {
+  width: 25%;
+  border-radius: 50%;
+}
+
+
+.all-image-about {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  justify-content: space-around;
+}
+
+.desc-hobbie {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  right: 30%;
+  background-color: rgba(0, 0, 0, 0.192);
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+
