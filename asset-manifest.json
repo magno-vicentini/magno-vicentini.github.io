@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6a55d46.css",
-    "main.js": "/static/js/main.494cb7bc.js",
+    "main.css": "/static/css/main.7713d25b.css",
+    "main.js": "/static/js/main.997d3aa5.js",
     "static/js/787.8e231f95.chunk.js": "/static/js/787.8e231f95.chunk.js",
     "static/media/movie-cards.jpg": "/static/media/movie-cards.c7781d277fb3446c5255.jpg",
-    "static/media/magno-perfil-zoom-sem-fundopng.png": "/static/media/magno-perfil-zoom-sem-fundopng.1be842ed6005eb1e4427.png",
+    "static/media/image-perfil-2.png": "/static/media/image-perfil-2.318b54cf0eb68016962e.png",
+    "static/media/magno-perfil-3.png": "/static/media/magno-perfil-3.0f892b3515c2a18d1df2.png",
     "static/media/mytunes.jpeg": "/static/media/mytunes.2b284c2f699afd000605.jpeg",
     "static/media/planets-search.jpg": "/static/media/planets-search.b5fd09b587cc0f344462.jpg",
     "static/media/personal-wallet.jpg": "/static/media/personal-wallet.1d5eb22c8a7a1bf9c17a.jpg",
+    "static/media/viajarImage.png": "/static/media/viajarImage.a772f2cf9b6208b93c25.png",
+    "static/media/cookImage.png": "/static/media/cookImage.950707ee1e3c75d2fe77.png",
+    "static/media/dogImage.png": "/static/media/dogImage.401820d139830043f79b.png",
+    "static/media/playImage.png": "/static/media/playImage.d5bbba2270ff6427f7c1.png",
     "index.html": "/index.html",
-    "main.e6a55d46.css.map": "/static/css/main.e6a55d46.css.map",
-    "main.494cb7bc.js.map": "/static/js/main.494cb7bc.js.map",
+    "main.7713d25b.css.map": "/static/css/main.7713d25b.css.map",
+    "main.997d3aa5.js.map": "/static/js/main.997d3aa5.js.map",
     "787.8e231f95.chunk.js.map": "/static/js/787.8e231f95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6a55d46.css",
-    "static/js/main.494cb7bc.js"
+    "static/css/main.7713d25b.css",
+    "static/js/main.997d3aa5.js"
   ]
 }
