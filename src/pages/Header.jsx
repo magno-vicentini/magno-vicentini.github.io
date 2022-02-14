@@ -74,7 +74,14 @@ function Header() {
         <h1>Projects</h1>
        
       </Link> 
-      <h1>About</h1>
+      <Link
+      to="about"
+      smooth
+      duration={1000}
+      offset={-30}
+      >
+        <h1>About</h1>
+      </Link>
       <h1>Contact</h1>
     </header>
   );

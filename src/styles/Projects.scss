@@ -12,6 +12,8 @@
 
 .repos-box {
   width: 45%;
+  max-width: 90%;
+  max-height: 250px;
   margin: 0 10px;
   text-align: center;
   font-size: 0.9rem;
@@ -22,7 +24,6 @@
 
 .projects-container {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -66,6 +67,10 @@
   
 }
 
+.links-button a {
+  color: var(--main-white);
+}
+
 .desc-container {
   display: flex;
   width: 60%;
@@ -80,6 +85,7 @@
   padding: 3px;
   margin: 5px 10px;
 }
+
 
 
 

@@ -44,15 +44,16 @@ function Projects({ history }) {
                     }
                   </div>
                     <div className='links-button'>
-                   
-                      <div className="button-border" onClick={() => history.push(repos.url)}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        View Code
-                      </div>
-                             
+                      <a href={repos.clone_url} color="white" >
+                        <div className="button-border" >
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          View Code
+                        </div>
+                      </a>
+                              
                     <div className="button-border">
                       <span></span>
                       <span></span>
