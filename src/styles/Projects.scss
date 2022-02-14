@@ -14,6 +14,7 @@
   width: 45%;
   margin: 0 10px;
   text-align: center;
+  font-size: 0.9rem;
   margin: 15px;
   box-shadow: 5px 10px 3px var(--main-green);
   border-radius: 25px;
@@ -21,6 +22,7 @@
 
 .projects-container {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -52,14 +54,13 @@
 .repos-container {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.9rem;
   justify-content: space-evenly;
 }
 
 .links-button {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 25%;
   align-items: center;
   justify-items: center;
   

@@ -3,7 +3,9 @@ import '../styles/Projects.scss'
 import '../styles/Buttons.scss'
 
 
-function Projects() {
+
+
+function Projects({ history }) {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -41,14 +43,16 @@ function Projects() {
                       })
                     }
                   </div>
-                  <div className='links-button'>
-                    <div className="button-border">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      View Code
-                    </div>
+                    <div className='links-button'>
+                   
+                      <div className="button-border" onClick={() => history.push(repos.url)}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        View Code
+                      </div>
+                             
                     <div className="button-border">
                       <span></span>
                       <span></span>
