@@ -1,0 +1,29 @@
+.contacts {
+  align-items: center;
+  background-color: var(--main-black);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 300px;
+  max-height: 700px;
+  padding: auto;
+  margin:auto;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+img {
+  width: 80px;
+  margin: 0 10px;
+}
+
+.gmail-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}

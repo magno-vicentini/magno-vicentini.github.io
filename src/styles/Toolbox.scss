@@ -4,7 +4,9 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 700px;
+  min-height: 700px;
+  max-height: 1200px;
+  text-align: center;
   padding: auto;
   margin:auto;
 }
@@ -13,6 +15,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image-front {

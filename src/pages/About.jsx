@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import imageMagno from '../assets/images/image-perfil-2.png'
 import Hobbies from '../components/Hobbies';
 import myInfos from '../assets/images/infosMagno';
@@ -13,6 +13,7 @@ export default function About() {
     <h1>About</h1>
     <div className='all-image-about'>
       <img src={imageMagno} alt="magno perfil" className='image-perfil-2 '/>
+      <p>Let's tap to know more about me.</p>
       <div className='hobbies'>
         { 
           myInfos.map((info) => {

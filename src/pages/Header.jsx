@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css';
-import { HomeIcon } from '@heroicons/react/solid'
+import { HomeIcon } from '@heroicons/react/solid';
 import { animateScroll as scroll } from 'react-scroll';
-import '../styles/Header.scss'
-import { Link } from 'react-scroll'
+import '../styles/Header.scss';
+import { Link } from 'react-scroll';
 import { useMediaQuery } from 'react-responsive';
 
 function Header() {
@@ -42,47 +42,35 @@ function Header() {
   }, [scrollDir]);
 
   return (
-    <header className='nav-portfolio' 
-    style={{
-      animation: isScreenMedium
-        ? 'none'
-        : scrollDir
+    <header
+      className='nav-portfolio'
+      style={{
+        animation: isScreenMedium
+          ? 'none'
+          : scrollDir
           ? 'fadeIn 1s forwards'
           : 'fadeOut 1s forwards',
-    }}
+      }}
     >
-      <HomeIcon 
+      <HomeIcon
         className='nav-types'
         style={{ cursor: 'pointer' }}
-          onClick={() => scroll.scrollTo(0, { duration: '0', delay: '0', smooth: 'true' })}
-        />
-      <Link
-      to="toolbox"
-      smooth
-      duration={1000}
-      offset={-30}
-      >
+        onClick={() =>
+          scroll.scrollTo(0, { duration: '0', delay: '0', smooth: 'true' })
+        }
+      />
+      <Link to='toolbox' smooth duration={1000} offset={-30}>
         <h1>Toolbox</h1>
-       
-      </Link> 
-      <Link
-      to="projects"
-      smooth
-      duration={1000}
-      offset={-30}
-      >
+      </Link>
+      <Link to='projects' smooth duration={1000} offset={-30}>
         <h1>Projects</h1>
-       
-      </Link> 
-      <Link
-      to="about"
-      smooth
-      duration={1000}
-      offset={-30}
-      >
+      </Link>
+      <Link to='about' smooth duration={1000} offset={-30}>
         <h1>About</h1>
       </Link>
-      <h1>Contact</h1>
+      <Link to='contact' smooth duration={1000} offset={-30}>
+        <h1>Contact</h1>
+      </Link>
     </header>
   );
 }

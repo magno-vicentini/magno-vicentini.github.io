@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/Projects.scss' 
 import '../styles/Buttons.scss'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 
 
-function Projects({ history }) {
+
+function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -44,7 +46,7 @@ function Projects({ history }) {
                     }
                   </div>
                     <div className='links-button'>
-                      <a href={repos.clone_url} color="white" >
+                      <a href={repos.clone_url} color="white" className="links-button">
                         <div className="button-border" >
                           <span></span>
                           <span></span>
