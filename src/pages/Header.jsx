@@ -6,13 +6,11 @@ import { Link } from 'react-scroll';
 import DayNight from '../components/DayNight';
 import PortfolioContext from '../context/PortfolioContext';
 
-import useMediaQuery from '@mui/material/useMediaQuery';
-
 function Header() {
   const [scrollDir, setScrollDir] = useState(true);
   const { darkMode } = useContext(PortfolioContext);
 
-  const minScreen = useMediaQuery('(max-width:600px)');
+  
 
   useEffect(() => {
     const threshold = 0;
@@ -70,10 +68,8 @@ function Header() {
       </Link>
       <Link to='contact' smooth duration={1000} offset={-30}>
         <h1>Contact</h1>
-      </Link>
-      {
-        (minScreen) ? '' : <DayNight/>
-      }
+      </Link>   
+      <DayNight/>
     </header>
   );
 }
