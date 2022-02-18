@@ -4,13 +4,11 @@ import { HomeIcon } from '@heroicons/react/solid';
 import { animateScroll as scroll } from 'react-scroll';
 import '../styles/Header.scss';
 import { Link } from 'react-scroll';
-import { useMediaQuery } from 'react-responsive';
+
 
 function Header() {
   const [scrollDir, setScrollDir] = useState(true);
   // const { darkMode } = useContext(PortfolioContext);
-
-  const isScreenMedium = useMediaQuery({ query: '(max-width: 1015px)' });
 
   useEffect(() => {
     const threshold = 0;
@@ -45,9 +43,7 @@ function Header() {
     <header
       className='nav-portfolio'
       style={{
-        animation: isScreenMedium
-          ? 'none'
-          : scrollDir
+        animation: scrollDir
           ? 'fadeIn 1s forwards'
           : 'fadeOut 1s forwards',
       }}

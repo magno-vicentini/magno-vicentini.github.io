@@ -24,7 +24,6 @@ function Projects() {
 
   return (
     <div className='projects-page' id='projects'>
-      {console.log(projects)}
       <h1 data-aos='zoom-in'>Projects</h1>
       <div className='projects-container'>
         {projects.map((repos) => {
