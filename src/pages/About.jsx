@@ -18,7 +18,7 @@ export default function About() {
         { 
           myInfos.map((info) => {
             return (
-              <Hobbies imageInfo={ info.hobbie } descInfo={ info.desc }/>
+              <Hobbies key={info.hobbie} imageInfo={ info.hobbie } descInfo={ info.desc }/>
             )
         })
         }

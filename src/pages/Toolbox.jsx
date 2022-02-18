@@ -29,7 +29,7 @@ function Toolbox() {
         {
           backendIcons.map((el, index) => {
             return (
-              <div key={`front${index}`} className='icon-container' data-aos="fade-up">
+              <div key={`back${index}`} className='icon-container' data-aos="fade-up">
                 <img src={el.url} alt={el.iconName} className="image-front"/>
                 <p>{el.iconName}</p>  
               </div>
@@ -42,7 +42,7 @@ function Toolbox() {
         {
           generalToolsIcons.map((el, index) => {
             return (
-              <div key={`front${index}`} className='icon-container' data-aos="fade-up">
+              <div key={`general${index}`} className='icon-container' data-aos="fade-up">
                 <img src={el.url} alt={el.iconName} className="image-front"/>
                 <p>{el.iconName}</p>  
               </div>
