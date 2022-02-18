@@ -92,6 +92,15 @@
   margin: 5px 10px;
 }
 
+.ligth-mode-projects {
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+    h1{
+      color: Black;
+    }
+}
+
 @media only screen and (max-width: 600px) {
   .repos-box {
     font-size: 0.9rem;

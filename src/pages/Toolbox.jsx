@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../styles/Toolbox.scss'
 import frontendIcons from '../assets/images/frontend-images'
 import backendIcons from '../assets/images/backend-images'
 import generalToolsIcons from '../assets/images/generalToolbox-images'
+import PortfolioContext from '../context/PortfolioContext'
 
 function Toolbox() {
+  const { darkMode } = useContext(PortfolioContext)
   
   return (
-    <div className='toolbox-page' id="toolbox">
+    <div className={`toolbox-page ${(!darkMode) ? 'ligth-mode-green' : ''}`} id="toolbox">
       <h1 data-aos="zoom-in">Toolbox</h1>
       <p data-aos="zoom-in">Lets take a look in the skills, tools and technologies I use in my projects.</p>
       

@@ -1,11 +1,12 @@
-import React from 'react';
-import '../App.css';
+import React, { useContext } from 'react';
 import '../styles/Home.scss'
 import PerfilImage from '../assets/images/magno-perfil-3.png'
+import PortfolioContext from '../context/PortfolioContext';
 
 function Home() {
+  const { darkMode } = useContext(PortfolioContext)
   return (
-    <section className='home-page'>
+    <section className={`home-page ${(!darkMode) ? 'ligth-mode-home' : ''}`}>
       <div className='intro-about'>
         <h1 className='home-intro'>Welcome!!</h1>
         <h1 className='home-intro'>I'm Magno Vicentini</h1>

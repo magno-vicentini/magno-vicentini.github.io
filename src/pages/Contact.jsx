@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../styles/Contact.scss'
-
 import gmailContact from '../assets/images/gmail-contact.png'
 import githubContact from '../assets/images/github-contact.png'
 import linkedinContact from '../assets/images/linkedin-contact.png'
+import PortfolioContext from '../context/PortfolioContext'
 
 export default function Contact() {
+  const { darkMode } = useContext(PortfolioContext)
   return (
-    <div className='contacts' id='contact'>
+    <div className={`contacts ${(!darkMode) ? 'ligth-mode-contact' : ''}`} id='contact'>
       <h1>Contact</h1>
       <h3>Let's work together!</h3>
 

@@ -1,0 +1,11 @@
+.lamp-card {
+  display: flex;
+  width: 15%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .lamp-card {
+    visibility: hidden;
+  }
+}

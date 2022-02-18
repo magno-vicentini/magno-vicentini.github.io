@@ -1,14 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import '../App.css';
+import React, { useContext, useEffect, useState } from 'react';
 import { HomeIcon } from '@heroicons/react/solid';
 import { animateScroll as scroll } from 'react-scroll';
 import '../styles/Header.scss';
 import { Link } from 'react-scroll';
+import DayNight from '../components/DayNight';
+import PortfolioContext from '../context/PortfolioContext';
 
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Header() {
   const [scrollDir, setScrollDir] = useState(true);
-  // const { darkMode } = useContext(PortfolioContext);
+  const { darkMode } = useContext(PortfolioContext);
+
+  const minScreen = useMediaQuery('(max-width:600px)');
 
   useEffect(() => {
     const threshold = 0;
@@ -41,7 +45,7 @@ function Header() {
 
   return (
     <header
-      className='nav-portfolio'
+      className={`nav-portfolio ${(!darkMode) ? 'ligth-mode-header' : ''}`}
       style={{
         animation: scrollDir
           ? 'fadeIn 1s forwards'
@@ -67,6 +71,9 @@ function Header() {
       <Link to='contact' smooth duration={1000} offset={-30}>
         <h1>Contact</h1>
       </Link>
+      {
+        (minScreen) ? '' : <DayNight/>
+      }
     </header>
   );
 }

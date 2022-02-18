@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import PortfolioProvider from './provider/PortfolioProvider';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import './App.scss';
 
 
 function App() {

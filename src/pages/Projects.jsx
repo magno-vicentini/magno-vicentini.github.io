@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import '../styles/Projects.scss';
 import '../styles/Buttons.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import PortfolioContext from '../context/PortfolioContext';
 
 function Projects() {
   const [projects, setProjects] = useState([]);
+  const { darkMode } = useContext(PortfolioContext)
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -23,7 +25,7 @@ function Projects() {
   }, []);
 
   return (
-    <div className='projects-page' id='projects'>
+    <div className={`projects-page ${(!darkMode) ? 'ligth-mode-projects' : ''}`} id='projects'>
       <h1 data-aos='zoom-in'>Projects</h1>
       <div className='projects-container'>
         {projects.map((repos) => {
@@ -80,8 +82,7 @@ function Projects() {
                     </div>
                   </a>
                     ) : ''
-                  }
-                  
+                  }                
                 </div>
               </div>
             </div>
