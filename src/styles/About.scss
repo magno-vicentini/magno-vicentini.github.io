@@ -66,6 +66,21 @@
   }
 }
 
+@media only screen and (min-width: 1201px) {
+  .about-page {
+    min-height: 1000px;
+    max-height: 1300px;
+    font-size: 2rem;
+  }
+
+  .desc-hobbie {
+    font-size: 2rem;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+  }
+}
+
 
 
 

@@ -36,3 +36,14 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+
+@media only screen and (min-width: 1200px) {
+  .toolbox-page {
+    font-size: 2rem;
+  }
+
+  .image-front {
+    width: 70px;
+    margin: 0px 15px;
+  }
+}

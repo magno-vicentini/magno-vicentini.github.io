@@ -14,6 +14,7 @@ function Toolbox() {
       <p data-aos="zoom-in">Lets take a look in the skills, tools and technologies I use in my projects.</p>
       
       <h3 data-aos="zoom-in">Front-End</h3>
+  
       <div className='toolbox-front'>
         {
           frontendIcons.map((el, index) => {

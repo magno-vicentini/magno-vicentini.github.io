@@ -6,7 +6,7 @@
   flex-direction: column;
   width: 80%;
   min-height: 700px;
-  max-height: 1800px;
+  max-height: 2500px;
   padding: auto;
   margin:auto;
 }
@@ -35,6 +35,12 @@
 .repo-personal-wallet {
   background-image: url(../assets/images/personal-wallet.jpg);
   background-size:cover;
+}
+
+.repo-app-recipes {
+  background-image: url(../assets/images/recipes-image.jpg);
+  background-size:cover;
+  
 }
 
 .repo-movie-cards-library {
@@ -121,6 +127,23 @@
     margin: 10px 5px;  
     color: var(--main-white); 
     align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .repos-box {
+    font-size: 2rem;
+    max-height: 600px;
+  }
+
+  .links-button {
+    width: 20%;  
+  }
+
+  .links-button a {
+    color: var(--main-white);
+    width: 100%;
+    
   }
 }
 

@@ -4,7 +4,7 @@ const generalToolsIcons = [
     iconName: "Git"
   },
   {
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    url: "https://raphaelbrodrigues.github.io/images/git.png",
     iconName: "GitHub"
   },
   {
