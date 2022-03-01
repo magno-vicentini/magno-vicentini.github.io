@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f462889c.css",
-    "main.js": "/static/js/main.3216171c.js",
+    "main.css": "/static/css/main.b160b1aa.css",
+    "main.js": "/static/js/main.b68388ec.js",
     "static/js/787.8e231f95.chunk.js": "/static/js/787.8e231f95.chunk.js",
     "static/media/movie-cards.jpg": "/static/media/movie-cards.c7781d277fb3446c5255.jpg",
     "static/media/image-perfil-2.png": "/static/media/image-perfil-2.318b54cf0eb68016962e.png",
     "static/media/magno-perfil-3.png": "/static/media/magno-perfil-3.0f892b3515c2a18d1df2.png",
+    "static/media/recipes-image.jpg": "/static/media/recipes-image.5d76d992151772d89dff.jpg",
     "static/media/mytunes.jpeg": "/static/media/mytunes.2b284c2f699afd000605.jpeg",
     "static/media/planets-search.jpg": "/static/media/planets-search.b5fd09b587cc0f344462.jpg",
     "static/media/personal-wallet.jpg": "/static/media/personal-wallet.1d5eb22c8a7a1bf9c17a.jpg",
@@ -18,12 +19,12 @@
     "static/media/dogImage.png": "/static/media/dogImage.401820d139830043f79b.png",
     "static/media/playImage.png": "/static/media/playImage.d5bbba2270ff6427f7c1.png",
     "index.html": "/index.html",
-    "main.f462889c.css.map": "/static/css/main.f462889c.css.map",
-    "main.3216171c.js.map": "/static/js/main.3216171c.js.map",
+    "main.b160b1aa.css.map": "/static/css/main.b160b1aa.css.map",
+    "main.b68388ec.js.map": "/static/js/main.b68388ec.js.map",
     "787.8e231f95.chunk.js.map": "/static/js/787.8e231f95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f462889c.css",
-    "static/js/main.3216171c.js"
+    "static/css/main.b160b1aa.css",
+    "static/js/main.b68388ec.js"
   ]
 }
