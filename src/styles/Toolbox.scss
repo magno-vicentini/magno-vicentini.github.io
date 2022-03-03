@@ -37,9 +37,16 @@
   padding-right: 10%;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 600px) {
+  .toolbox-page {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
   .toolbox-page {
     font-size: 2rem;
+    height: 1440px;
   }
 
   .image-front {
@@ -48,8 +55,3 @@
   }
 }
 
-@media only screen and (min-width: 1201px) {
-  .toolbox-page {
-    height: 1440px;
-  }
-}
