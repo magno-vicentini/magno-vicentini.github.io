@@ -33,3 +33,10 @@ img {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+@media only screen and (min-width: 1201px) {
+  .contacts {
+    height: 700px;
+    font-size: 4rem;
+  }
+}
