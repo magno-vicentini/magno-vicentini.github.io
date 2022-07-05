@@ -29,8 +29,8 @@ function Projects() {
       <h1 data-aos='zoom-in'>Projects</h1>
       <div className='projects-container'>
         {projects.map((repos) => {
-          if (repos.name.includes('magno') || repos.homepage === '') return '';
-          
+          if (repos.name.includes('magno') || !repos.description) return '';
+          console.log(repos.description)
           return (
             <div
               className={`repos-box repo-${repos.name}`}
