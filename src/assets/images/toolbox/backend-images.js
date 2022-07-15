@@ -18,6 +18,14 @@ const backendIcons = [
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg",
     iconName: "Mocha"
+  },
+  {
+    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    iconName: "Typescript"
+  },
+  {
+    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    iconName: "Mongodb"
   }
 ]
 

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import '../styles/Toolbox.scss'
-import frontendIcons from '../assets/images/frontend-images'
-import backendIcons from '../assets/images/backend-images'
-import generalToolsIcons from '../assets/images/generalToolbox-images'
+import frontendIcons from '../assets/images/toolbox/frontend-images'
+import backendIcons from '../assets/images/toolbox/backend-images'
+import generalToolsIcons from '../assets/images/toolbox/generalToolbox-images'
 import PortfolioContext from '../context/PortfolioContext'
 
 function Toolbox() {
